@@ -24,12 +24,14 @@ const Hero = () => {
                          words="Transforming Innovative Ideas into Creative Implementations"
                     />
                     <p className='text-center mt-3 md:tracking-wider mb-4 text-sm md:text-lg lg:text-xl'>We develop React Native, React.js, Next.js, Flutter applications, ML models, Web3 websites and more!</p>
-                    <Button 
-                         title="Check our work"
-                         position="right"
-                         otherClasses=""
-                         icon={<FaLocationArrow />}
-                     />
+                    <a href="#projects">
+                         <Button 
+                              title="Check our work"
+                              position="right"
+                              otherClasses=""
+                              icon={<FaLocationArrow />}
+                         />
+                    </a>
                </div>
           </div>
     </div>

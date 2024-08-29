@@ -6,8 +6,7 @@ import { PinContainer } from './ui/PinContainer'
 
 const ProjectShowCase = () => {
   return (
-    <div className='py-20' id="projects
-    ">
+    <div className='py-20' id="projects">
      <h1 className='heading'>A selection of our {' '}
           <span className='text-outline'>recent projects</span>
      </h1>

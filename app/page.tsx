@@ -1,6 +1,8 @@
+import Approach from "@/components/Approach";
 import { AboutUsCards } from "@/components/Cards";
 import Hero from "@/components/Hero";
 import ProjectShowCase from "@/components/ProjectShowCase";
+import Services from "@/components/Services";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import { navItems } from "@/data/index";
 import Image from "next/image";
@@ -14,6 +16,8 @@ export default function Home() {
         <Hero />  
         <AboutUsCards />
         <ProjectShowCase /> 
+        <Services />
+        <Approach />
       </div>
     </main>
   );

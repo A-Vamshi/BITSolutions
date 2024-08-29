@@ -4,7 +4,7 @@ import Image from "next/image";
 import React from "react";
 import { Carousel, Card } from "./ui/CardsCarousel";
 
-export function AppleCardsCarouselDemo() {
+export function AboutUsCards() {
   const cards = data.map((card, index) => (
     <Card key={card.src} card={card} index={index} />
   ));

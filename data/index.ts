@@ -4,14 +4,43 @@ export const navItems = [
     { name: "Testimonials", link: "#testimonials" },
     { name: "Contact", link: "#contact" },
   ];
+
+  export const data = [
+    {
+      category: "Best Service",
+      title: "We prioritize client collaboration, ensuring the best service",
+      src: "/c1.jpg",
+    },
+    {
+      category: "Flexibility",
+      title: "We're very flexible with time zones.",
+      src: "/c2.jpg",
+    },
+    {
+      category: "We build",
+      title: "React Native, React.js, Next.js, Flutter applications, ML models, Web3 websites and more!",
+      src: "/b1.svg",
+    },
+  
+    {
+      category: "Innovative",
+      title: "We solve problems in the most creative way.",
+      src: "/c4.jpg",
+    },
+    {
+      category: "Have an idea?",
+      title: "Work with us to build your next big project?",
+      src: "/b1.svg",
+    },
+  ];
   
   export const gridItems = [
     {
       id: 1,
       title: "We prioritize client collaboration, ensuring the best service",
       description: "",
-      className: "lg:col-span-2 md:col-span-6 md:row-span-2 lg:min-h-[30vh]",
-      imgClassName: "w-full h-full",
+      className: "lg:col-span-2 md:col-span-2 md:row-span-2 lg:min-h-[30vh]",
+      imgClassName: "w-[85vw] h-40 md:w-[55vw] md:h-[68vh] lg:w-[56vw] flex-center",
       titleClassName: "justify-end",
       img: "/b1.svg",
       spareImg: "",
@@ -20,7 +49,7 @@ export const navItems = [
       id: 2,
       title: "We're very flexible with time zones",
       description: "",
-      className: "lg:col-span-1 md:col-span-3 md:row-span-1",
+      className: "lg:col-span-1 md:col-span-1 md:row-span-1",
       imgClassName: "",
       titleClassName: "justify-start",
       img: "",
@@ -30,7 +59,7 @@ export const navItems = [
       id: 3,
       title: "We build ",
       description: "React Native, React.js, Next.js, Flutter applications, ML models, Web3 websites and more!",
-      className: "lg:col-span-1 md:col-span-3 md:row-span-1",
+      className: "lg:col-span-1 md:col-span-1 md:row-span-1",
       imgClassName: "",
       titleClassName: "justify-center",
       img: "",
@@ -40,7 +69,7 @@ export const navItems = [
       id: 4,
       title: "Innovators who solve problems in the most creative way.",
       description: "",
-      className: "lg:col-span-1 md:col-span-3 md:row-span-1",
+      className: "lg:col-span-1 md:col-span-1 md:row-span-1",
       imgClassName: "",
       titleClassName: "justify-start",
       img: "/grid.svg",
@@ -52,7 +81,7 @@ export const navItems = [
       title: "Currently building projects for 2 different clients",
       description: "",
       className: "md:col-span-2 md:row-span-2",
-      imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
+      imgClassName: "w-[85vw] h-40 md:w-[55vw] md:h-[68vh] lg:w-[56vw] flex-center",
       titleClassName: "justify-center md:justify-start lg:justify-center",
       img: "/b5.svg",
       spareImg: "/grid.svg",
@@ -61,7 +90,7 @@ export const navItems = [
       id: 6,
       title: "Want to work with us to build your next big project?",
       description: "",
-      className: "lg:col-span-1 md:col-span-3 md:row-span-1",
+      className: "lg:col-span-1 md:col-span-1 md:row-span-1",
       imgClassName: "",
       titleClassName: "justify-center md:max-w-full max-w-60 text-center",
       img: "",

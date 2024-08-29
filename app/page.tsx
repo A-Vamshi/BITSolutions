@@ -1,4 +1,4 @@
-import Grid from "@/components/Grid";
+import { AppleCardsCarouselDemo } from "@/components/Cards";
 import Hero from "@/components/Hero";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import Image from "next/image";
@@ -16,7 +16,7 @@ export default function Home() {
           }
         ]}/>
         <Hero />  
-        <Grid />
+        <AppleCardsCarouselDemo />
       </div>
     </main>
   );

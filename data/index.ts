@@ -1,4 +1,5 @@
 export const navItems = [
+    { name: "Home", link: "/" },
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
     { name: "Services", link: "#services" },
@@ -40,7 +41,7 @@ export const navItems = [
       id: 1,
       title: "CricUnity",
       des: "A mobile application for the best cricket community.",
-      img: "/p1.svg",
+      img: "/p1.jpeg",
       link: "https://github.com/adrianhajdin?tab=repositories",
     },
     {

@@ -8,7 +8,7 @@ const Footer = () => {
     <footer className='w-full mb-[100px] pb-10 md:mb-5'  id="contact"> 
      <div className='flex flex-col items-center'>
           <h1 className='heading'>Ready to take your <span className='text-outline'>Digital Presence</span> to next level?</h1>
-          <p className='text-white-200 md:mt-10 my-5 text-center'>Reach out to us today!</p>
+          <p className='text-white-200 md:mt-10 my-5 text-center'>Get a call back from us!</p>
           <a href="mailto:vamshi.edustudy@gmail.com">
                <Button title="Email us" icon={<FaLocationArrow />} position="right" otherClasses='' />
           </a>

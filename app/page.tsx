@@ -1,3 +1,4 @@
+"use client";
 import Approach from "@/components/Approach";
 import { AboutUsCards } from "@/components/Cards";
 import Footer from "@/components/Footer";

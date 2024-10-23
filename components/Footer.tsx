@@ -1,14 +1,18 @@
+"use client";
 import React from 'react'
 import Button from './ui/Button'
 import { FaLocationArrow } from "react-icons/fa6"
 import { socialMedia } from '@/data/index'
+import Contact from './Contact'
 
 const Footer = () => {
   return (
     <footer className='w-full mb-[100px] pb-10 md:mb-5'  id="contact"> 
      <div className='flex flex-col items-center'>
           <h1 className='heading'>Ready to take your <span className='text-outline'>Digital Presence</span> to next level?</h1>
-          <p className='text-white-200 md:mt-10 my-5 text-center'>Get a call back from us!</p>
+          <p className='text-white-200 md:mt-10 my-5 text-center'>Get a call from us!</p>
+          <Contact />
+          <p className='m-3'>Or</p>
           <a href="mailto:vamshi.edustudy@gmail.com">
                <Button title="Email us" icon={<FaLocationArrow />} position="right" otherClasses='' />
           </a>

@@ -21,7 +21,7 @@ const ProjectShowCase = () => {
                               <img
                                    src={img}
                                    alt={title}
-                                   className="z-10 absolute bottom-0 h-80 w-96"
+                                   className="z-10 absolute h-60"
                               />
                          </div>
                          <h1 className='font-bold lg:text-2xl md:text-xl text-base line-clamp-1 my-2'>{title}</h1>

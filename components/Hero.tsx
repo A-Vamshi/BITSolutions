@@ -3,7 +3,7 @@ import Button from './ui/Button'
 import { Spotlight } from './ui/Spotlights'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'
 import { FaLocationArrow } from "react-icons/fa6"
-import image from "../images/pngwing.com.png"
+import image from "../public/bg.png"
 import Image from 'next/image'
 
 const Hero = () => {

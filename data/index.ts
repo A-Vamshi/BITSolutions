@@ -46,9 +46,9 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "iPhone Website",
-      des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-      img: "/p4.svg",
+      title: "Billing Software for a Cafe",
+      des: "We created a billing software for a cafe at local store increasing their efficiency by 30% and sales by 20%.",
+      img: "/p4.jpg",
       link: "https://github.com/adrianhajdin/iphone",
     },
   ];

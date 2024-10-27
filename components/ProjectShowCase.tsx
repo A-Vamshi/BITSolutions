@@ -1,6 +1,6 @@
 import { projects } from '@/data/index'
 import React from 'react'
-import { PinCard } from './ui/PinCard'
+// import { PinCard } from './ui/PinCard'
 import { PinContainer } from './ui/PinContainer'
 
 
@@ -21,7 +21,7 @@ const ProjectShowCase = () => {
                               <img
                                    src={img}
                                    alt={title}
-                                   className="z-10 absolute bottom-0"
+                                   className="z-10 absolute bottom-0 h-80 w-96"
                               />
                          </div>
                          <h1 className='font-bold lg:text-2xl md:text-xl text-base line-clamp-1 my-2'>{title}</h1>

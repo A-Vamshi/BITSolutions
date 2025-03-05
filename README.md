@@ -1,10 +1,10 @@
 # BitSolutions Webpage
 
-<img src="/assets/images/1.png" alt="drawing" /> <img src="/assets/images/2.png" alt="drawing" />
-<img src="/assets/images/3.png" alt="drawing" />
-<img src="/assets/images/4.png" alt="drawing" />
-<img src="/assets/images/5.png" alt="drawing" />
-<img src="/assets/images/6.png" alt="drawing" />
+<img src="/assets/1.png" alt="drawing" /> <img src="/assets/2.png" alt="drawing" />
+<img src="/assets/3.png" alt="drawing" />
+<img src="/assets/4.png" alt="drawing" />
+<img src="/assets/5.png" alt="drawing" />
+<img src="/assets/6.png" alt="drawing" />
 
 BitSolutions is a startup that offers cutting-edge services in **web development, app development, software creation, and more**. This website was built using **Next.js**, **Aceternity UI**, **Web3Forms**, and **Tailwind CSS** to provide a modern, responsive, and high-performance user experience.
 

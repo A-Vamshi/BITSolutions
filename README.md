@@ -29,7 +29,7 @@ To run the project locally, follow these steps:
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/BitSolutions.git
+   git clone https://github.com/A-Vamshi/BITSolutions.git
    ```
 
 2. Navigate to the project folder:
